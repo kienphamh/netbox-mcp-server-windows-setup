@@ -1,4 +1,4 @@
-    "mcpServers": {
+"mcpServers": {
         "netbox": {
             "command": "C:\\Users\\YourName\\.local\\bin\\uv.exe",
             "args": [
