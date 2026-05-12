@@ -122,11 +122,10 @@ You should see in the Output panel (`View → Output → MCP: netbox`):
 ```
 
 ### 5. Test it in GitHub Copilot
-
-Open Copilot Chat (`Ctrl + Alt + I`), switch to **Agent** mode, and try:
+First, ensure netbox and pylance mcp server is checked in the configure tools of the agent. Open Copilot Chat (`Ctrl + Alt + I`), switch to **Agent** mode, and try:
 
 ```
-List all devices in NetBox
+Using netbox mcp server. List all devices in NetBox.
 ```
 
 ---
@@ -140,7 +139,7 @@ In Claude Desktop, go to **Settings → Developer → Developer**, it'll lead yo
 ### 2. Paste the following config
 
 ```json
-    "mcpServers": {
+"mcpServers": {
         "netbox": {
             "command": "C:\\Users\\YourName\\.local\\bin\\uv.exe",
             "args": [
