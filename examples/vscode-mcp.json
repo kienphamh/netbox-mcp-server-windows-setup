@@ -1,0 +1,17 @@
+{
+    "servers": {
+        "netbox": {
+            "command": "C:\\Users\\YourName\\.local\\bin\\uv.exe",
+            "args": [
+                "--directory",
+                "C:\\Users\\YourName\\path\\to\\netbox-mcp-server",
+                "run",
+                "netbox-mcp-server"
+            ],
+            "env": {
+                "NETBOX_URL": "https://demo.netbox.dev/",
+                "NETBOX_TOKEN": "your_API_token"
+            }
+        }
+    }
+}
