@@ -128,6 +128,19 @@ First, ensure netbox and pylance mcp server is checked in the configure tools of
 Using netbox mcp server. List all devices in NetBox.
 ```
 
+## Example Output
+```json
+[
+    {
+        "id": 1,
+        "name": "Site A",
+        "status": "active",
+        "region": "US East"
+    },
+    ...
+]
+```
+
 ---
 
 ## Setup for Claude Desktop
