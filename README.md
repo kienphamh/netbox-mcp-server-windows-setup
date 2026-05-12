@@ -157,8 +157,6 @@ In Claude Desktop, go to **Settings → Developer → Developer**, it'll lead yo
     }
 ```
 
-**NOTE**: You can add the config on top of your current claude config setting, the config block of JSON is identical as setting it up in VSCode.
-
 ### 3. Restart Claude Desktop
 
 Fully close and reopen Claude Desktop. The NetBox tools will appear automatically when the server connects.
